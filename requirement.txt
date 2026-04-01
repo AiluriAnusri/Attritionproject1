@@ -1,0 +1,9 @@
+setuptools
+numpy<2.0.0
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+streamlit
+altair
