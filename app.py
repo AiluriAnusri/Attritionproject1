@@ -4,9 +4,9 @@ import pandas as pd
 import numpy as np
 
 # Load the model and encoders
-model = joblib.load("employee_attrition.pkl")
-label_encoder = joblib.load("label_encoder.pkl")   # dictionary of encoders
-feature_columns = joblib.load("feature_columns.pkl")
+model = joblib.load("Attrition project 1/employee_attrition.pkl")
+label_encoder = joblib.load("Attrition project 1\label_encoder.pkl")   # dictionary of encoders
+feature_columns = joblib.load("Attrition project 1/feature_columns.pkl")
 
 # Streamlit UI
 st.title("Employee Attrition Prediction")
