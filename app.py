@@ -41,7 +41,7 @@ input_df = user_input_features()
 for col, encoder in label_encoder.items():
     if col in input_df.columns:
         try:
-            input_df[col] = encoder.transform(input_df[col].astype(str))
+            input_df[col] = label_encoder.transform(input_df[col].astype(str))
         except:
             input_df[col] = 0
 
